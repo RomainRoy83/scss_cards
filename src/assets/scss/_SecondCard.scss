@@ -1,0 +1,68 @@
+.secondCard {
+  width: 400px;
+  height: 180px;
+  background: whitesmoke;
+  border-radius: 10px;
+  font-size: .8rem;
+  box-shadow: 1px 1px 10px black;
+  overflow: hidden;
+  
+  .sectionSeparator {
+    background-color: lightgrey;
+    height: .5px;
+  }
+  
+  .lowerSection {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 20px;
+
+    p {
+      color: darkgrey;
+      font-weight: 400;
+      font-size: 1.1rem;
+    }
+    
+    .ratingCardTwo {
+      display: flex;
+      gap: 15px;
+      height: 15px;
+      
+      .void {
+        height: 15px;
+      }
+    }
+  }
+
+  .upperSection {
+    display: flex;
+
+    .imageSection {
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      
+      .imageContent {
+        width: 100px;
+      }
+    }
+
+    .infoCardTwo {
+      padding: 10px 25px;
+      line-height: .3rem;
+
+      h1 {
+        padding-bottom: 5px;
+        font-weight: 500;
+      }
+
+      p {
+        color: darkgrey;
+        font-weight: 500;
+      }
+    }
+  }
+}

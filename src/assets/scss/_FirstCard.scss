@@ -1,0 +1,83 @@
+.firstCard {
+  width: 300px;
+  height: 400px;
+  background: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+  overflow: hidden;
+
+  .cardOneContent {
+    height: 250px;
+    font-size: .6rem;
+    padding: 0 10px;
+
+    .cardOneDescription {
+      color: grey;
+    }
+
+    .globalRating {
+      margin-top: -15px;
+      height: 7px;
+      display: flex;
+
+      .ratingStarEmpty {
+        height: 6px;
+        padding: .8px;
+      }
+
+      .ratingStarFull {
+        height: 7px;
+      }
+
+      .ratingNumber {
+        margin-top: 2px;
+        margin-left: 10px;
+        font-size: .4rem;
+        color: darkgrey;
+      }
+    }
+    
+        .action {
+          background: none;
+          border: none;
+          color: rgb(197, 94, 245);
+          font-weight: bold;
+        }
+
+    .item {
+      background: lightgrey;
+      width: fit-content;
+      padding: 5px 15px;
+      border-radius: 10px;
+    }
+
+    .itemsSection {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: 110px;
+    }
+
+    .itemsSection > h2 {
+      font-size: .8rem;
+    }
+
+    .separatorCardOne {
+      margin-top: 15px;
+      background: lightgrey;
+      height: 1px;
+    }
+
+    .subItems {
+      margin-top: -30px;
+      display: flex;
+      gap: 10px;
+    }
+  }
+
+  .illuFirstCard {
+    height: 150px;
+    overflow: hidden;
+  }
+}
