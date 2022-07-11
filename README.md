@@ -1,3 +1,5 @@
+I chose SCSS because it has the best overall score among users and I also used it for my second project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
